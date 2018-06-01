@@ -3,14 +3,21 @@
   <head>
     <meta charset="utf-8">
     <title>Hello Name Project</title>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
   </head>
   <body>
-
-    <h1>Project #1: Hello Name!</h1>
-    <label>What is your name? </label><input type="text" id="name-input">
-    <button id="done-button">Done</button>
-    <p id="printed-name"></p>
-
+    <div class="form">
+      <div class="projectName">
+        <h1>Project #1: Hello Name!</h1>
+      </div>
+      <div class="nameQuestion">
+        <label>What is your name? </label><input type="text" id="inputName">
+        <button id="formCompleteButton">Done</button>
+      </div>
+      <div class="greetingMessage">
+        <p id="greeting"></p>
+      </div>
+    </div>
   </body>
 
   <script type="text/javascript" src="script.js"></script>
