@@ -4,6 +4,8 @@
   display: flex;
   justify-content: center;
   flex-flow: wrap;
+  margin-top: 70px;
+  background-color: #b8cef2;
 }
 
 .projectName {
@@ -17,4 +19,14 @@
   height: 100px;
   display: flex;
   justify-content: center;
+  background-color: #b8cef2;
 }
+
+/* #formCompleteButton {
+    background-color: #F2DCB8;
+    border: 2px solid #F2B8BB;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+} */
